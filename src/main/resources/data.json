@@ -1,0 +1,73 @@
+{
+  "_note" : "test data is generated with ai",
+  "trainees": [
+    {
+      "id": 1,
+      "firstName": "Emma",
+      "lastName": "Wilson",
+      "username": "Emma.Wilson",
+      "password": "Demo123456",
+      "active": true,
+      "dateOfBirth": "1998-05-14",
+      "address": "12 Green Park Avenue, London"
+    },
+    {
+      "id": 2,
+      "firstName": "James",
+      "lastName": "Brown",
+      "username": "James.Brown",
+      "password": "Demo654321",
+      "active": true,
+      "dateOfBirth": "1992-09-21",
+      "address": "38 Oak Street, Manchester"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "firstName": "Olivia",
+      "lastName": "Taylor",
+      "username": "Olivia.Taylor",
+      "password": "Coach12345",
+      "active": true,
+      "specialization": {
+        "name": "Fitness"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Daniel",
+      "lastName": "Martin",
+      "username": "Daniel.Martin",
+      "password": "Coach54321",
+      "active": true,
+      "specialization": {
+        "name": "Yoga"
+      }
+    }
+  ],
+  "trainings": [
+    {
+      "id": 1,
+      "traineeId": 1,
+      "trainerId": 1,
+      "trainingName": "Full Body Strength",
+      "trainingType": {
+        "name": "Fitness"
+      },
+      "trainingDate": "2026-11-24T18:00:00",
+      "trainingDuration": 60
+    },
+    {
+      "id": 2,
+      "traineeId": 2,
+      "trainerId": 2,
+      "trainingName": "Evening Vinyasa",
+      "trainingType": {
+        "name": "Yoga"
+      },
+      "trainingDate": "2026-11-25T19:30:00",
+      "trainingDuration": 45
+    }
+  ]
+}
